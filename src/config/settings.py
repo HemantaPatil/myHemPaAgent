@@ -12,7 +12,7 @@ class AppConfig:
     
     # App Info
     APP_NAME = "HemPa Mitra"
-    APP_ICON = "🤖"
+    APP_ICON = "🐶"
     
     # OpenAI Configuration
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
