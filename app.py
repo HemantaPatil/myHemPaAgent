@@ -1,6 +1,5 @@
 """
 Modern Streamlit app for HemPa Mitra - MCP-powered AI Assistant.
-Refactored based on the reference genai_streamlit_app architecture.
 """
 
 import streamlit as st
