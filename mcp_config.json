@@ -1,0 +1,60 @@
+{
+  "servers": {
+    "filesystem": {
+      "name": "filesystem",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/hemantapatil/Documents/"
+      ],
+      "env": {},
+      "transport": "stdio",
+      "url": null,
+      "enabled": true,
+      "description": "Access local filesystem"
+    },
+    "My Math Tool": {
+      "name": "My Math Tool",
+      "command": "/Users/hemantapatil/Documents/dev/ai_class/math_mcp/.venv/bin/python",
+      "args": [
+        "/Users/hemantapatil/Documents/dev/ai_class/math_mcp/math_server.py"
+      ],
+      "env": {
+        "workingDirectory": "/Users/hemantapatil/Documents/dev/ai_class/math_mcp"
+      },
+      "transport": "stdio",
+      "url": null,
+      "enabled": true,
+      "description": "My Math Tool"
+    },
+    "weather": {
+      "name": "weather",
+      "command": "/Users/hemantapatil/Documents/dev/ai_class/weather_mcp/.venv/bin/python",
+      "args": [
+        "/Users/hemantapatil/Documents/dev/ai_class/weather_mcp/weather.py"
+      ],
+      "env": {
+        "workingDirectory": "/Users/hemantapatil/Documents/dev/ai_class/weather_mcp"
+      },
+      "transport": "stdio",
+      "url": null,
+      "enabled": true,
+      "description": "Get Weather Information"
+    },
+    "USDA": {
+      "name": "USDA",
+      "command": "/Users/hemantapatil/Documents/dev/ai_class/mcp_postgres/.venv/bin/python",
+      "args": [
+        "/Users/hemantapatil/Documents/dev/ai_class/mcp_postgres/main.py"
+      ],
+      "env": {
+        "workingDirectory": "/Users/hemantapatil/Documents/dev/ai_class/mcp_postgres"
+      },
+      "transport": "stdio",
+      "url": null,
+      "enabled": true,
+      "description": "My USDA"
+    }
+  }
+}
